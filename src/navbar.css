@@ -1,0 +1,241 @@
+
+header{
+  width: 100%;
+  min-height: 100px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  position: fixed;
+  box-sizing: border-box;
+  background-color: whitesmoke;
+  box-shadow: 0 5px 10px black;
+  margin: 0;
+}
+
+.nav-link{
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.nav-link:hover{
+  color: rosybrown;
+}
+
+li{
+  list-style: none;
+}
+
+header ul{
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+header ul li {
+  padding: 0  1rem;
+}
+
+header ul li a{
+  font-weight: bold;
+}
+
+.logo-mh{
+  width: 100px;
+  height: 50px;
+}
+
+
+.cart-container{
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* --------Productos------------*/
+
+.title1{
+  font-size: 2rem;
+  padding: 10rem 0 0 0;
+  color: pink;
+}
+
+.productos{
+  padding: 5rem 2rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns:repeat(4, 1fr);
+  gap: 1rem;
+  box-sizing: border-box;
+  box-shadow: 1px 10px 10px 2px rgba(0, 0, 0, .2);
+  border: 6px solid transparent;
+  border-radius: 5px;
+}
+
+
+.producto:hover{
+  border: 6px solid pink;
+}
+
+.producto_img{
+  width: 100%;
+}
+
+.product_footer{
+  padding: 1rem;
+}
+
+.producttitle{
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #1a202c;
+  font-family: Helvetica, sans-serif;
+}
+
+.productp{
+  font-weight: 700;
+  color: rgba(0, 0, 0, alpha);
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.price{
+  font-size: 2rem;
+  color: #1a202c;
+
+}
+
+.buttomproduct{
+  width: 100%;
+  height: 45px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 1rem 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttomproduct button{
+  background-color: #f4f0ea;
+  max-width: 250px;
+  width: 100%;
+  margin: o auto;
+  font-size: 1.5rem;
+  color: black;
+  font-weight: 600;
+}
+
+.buttomproduct .btn{
+  border: none;
+  outline: 0;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn{
+  color: white;
+  max-width: 250px;
+  width: 100%;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+}
+
+.btndiv{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rosybrown;
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+}
+
+.buttomproddiv{
+  display: flex;
+  justify-content: center;;
+}
+
+.producto_img{
+  width: 100%;
+  height: 650px;
+}
+
+/********Product Detail*********/
+
+/* ProductDetail.css */
+
+/* Estilo del título del producto */
+.h1-productdetail {
+  font-size: 2rem;
+  padding: 2rem 0 0 0;
+  color: pink;
+  text-align: center;
+}
+
+/* Estilo de la imagen del producto */
+.productodetail_img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  display: block; /* Asegura que la imagen no tenga espacio en blanco debajo */
+  margin: 0 auto; /* Centra la imagen horizontalmente */
+  margin-top: 1rem; /* Añade espacio superior a la imagen */
+}
+
+/* Estilo del título del producto */
+.producttitle {
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #1a202c;
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+/* Estilo de la categoría del producto */
+.productp {
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.6);
+  text-transform: uppercase;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 0.2rem;
+}
+
+/* Estilo del precio del producto */
+.price {
+  font-size: 2rem;
+  color: #1a202c;
+  text-align: center;
+  margin-top: 0.2rem;
+}
+
+/* Estilo de la descripción del producto */
+.description {
+  font-size: 1.2rem;
+  color: #333;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+/* Estilo de la marca del producto */
+.marca {
+  font-size: 1rem;
+  color: #777;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+/* Estilo div contenedor de todo el product detail */
+
+.divproductdetail{
+  box-sizing: border-box;
+  box-shadow: 1px 10px 10px 2px rgba(0, 0, 0, .2);
+  border: 6px solid transparent;
+  border-radius: 5px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
